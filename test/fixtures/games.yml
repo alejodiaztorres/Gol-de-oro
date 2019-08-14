@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teams: one
+  result: 1
+  stadium: MyString
+  competition: MyString
+  possession: 1
+  goalattemps: 1
+  faults: 1
+  cornerkicks: 1
+  meetingdate: 2019-08-14
+  refereename: MyString
+
+two:
+  teams: two
+  result: 1
+  stadium: MyString
+  competition: MyString
+  possession: 1
+  goalattemps: 1
+  faults: 1
+  cornerkicks: 1
+  meetingdate: 2019-08-14
+  refereename: MyString

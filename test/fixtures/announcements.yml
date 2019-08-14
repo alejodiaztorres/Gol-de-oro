@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teams: one
+  players: one
+  goals: 1
+  yellowcard: 1
+  redcard: 1
+
+two:
+  teams: two
+  players: two
+  goals: 1
+  yellowcard: 1
+  redcard: 1

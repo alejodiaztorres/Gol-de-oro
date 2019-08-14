@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  foundation: 2019-08-07
+  president: MyString
+  coach: MyString
+
+two:
+  name: MyString
+  foundation: 2019-08-07
+  president: MyString
+  coach: MyString
