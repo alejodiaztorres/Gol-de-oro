@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_14_234524) do
+ActiveRecord::Schema.define(version: 2019_08_15_001447) do
 
   create_table "announcements", force: :cascade do |t|
     t.integer "teams_id"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2019_08_14_234524) do
     t.integer "redcard"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "game_id"
+    t.index ["game_id"], name: "index_announcements_on_game_id"
     t.index ["players_id"], name: "index_announcements_on_players_id"
     t.index ["teams_id"], name: "index_announcements_on_teams_id"
   end
